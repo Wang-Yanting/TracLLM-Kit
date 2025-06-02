@@ -1,7 +1,7 @@
 # TracLLM-Kit: A Toolkit for Context Traceback of Long Context LLMs
 
 <p align='center'>
-    <img alt="TracLLM" src='assets/fig1.png' width='50%'/>
+    <img alt="TracLLM" src='assets/fig1.png' width='60%'/>
 
 </p>
 
