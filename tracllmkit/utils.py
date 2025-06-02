@@ -130,7 +130,7 @@ def find_indices(list1: list, list2: list):
     return indices
 def contexts_to_paragraphs(contexts):
     paragraphs = contexts[0].split('\n\n')
-    paragraphs = ['\n\n'+paragraph for paragraph in paragraphs]
+    paragraphs = [paragraph if i==0 else '\n\n'+paragraph for i,paragraph in enumerate(paragraphs)]
 
     return paragraphs
 def contexts_to_segments(contexts):
@@ -238,7 +238,7 @@ def plot_sentence_importance(question, sentences_list, important_ids, importance
     #all_importance_values = (all_importance_values - np.min(all_importance_values)) / (np.max(all_importance_values) - np.min(all_importance_values)+0.0001)
     all_importance_values = (all_importance_values ) / (np.max(all_importance_values) +0.0001)
     
-    text.append("\nContext: \n", style=f"black bold")
+    text.append("Context: \n", style=f"black bold")
     for i,(sentence, imp) in enumerate(zip(sentences_list, all_importance_values)):
 
         #sentence = sentence.capitalize()
@@ -261,7 +261,7 @@ def plot_sentence_importance(question, sentences_list, important_ids, importance
 
     bg_color = f"{red_intensity:02x}{green_intensity:02x}{blue_intensity:02x}"
     text.append(question, style=f"on #{bg_color} black")
-    text.append("\nLLM_response:", style=f"black bold")
+    text.append("\nLLM_response: \n", style=f"black bold")
 
     answer = answer.capitalize()
     red_intensity = 255
