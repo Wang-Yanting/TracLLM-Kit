@@ -1,7 +1,7 @@
 # TracLLM-Kit: A Toolkit for Context Traceback of Long Context LLMs
 
 <p align='center'>
-    <img alt="TracLLM" src='assets/fig1.png' width='60%'/>
+    <img alt="TracLLM" src='assets/fig1.png' width='50%'/>
 
 </p>
 
@@ -75,7 +75,7 @@ attr.visualize_results(texts, question, answer, important_ids, importance_scores
 ```
 
 <p align = 'center'>
-  <img alt="Example" src='assets/example.png' width='90%'/>
+  <img alt="Example" src='assets/example.png' width='100%'/>
 </p>
 
 
