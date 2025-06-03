@@ -16,7 +16,7 @@ Please run the following commands to install the package:
 ```bash
 pip install tracllmkit
 ```
-### 🗂️ Supported Perturbation-based Methods
+### 🔍 Supported Perturbation-based Methods
 We currently support the following perturbation-based methods:
 - Shapley
 - Denoised Shapley
