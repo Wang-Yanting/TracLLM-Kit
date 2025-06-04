@@ -97,7 +97,7 @@ Directly running perturbation-based methods on closed-source LLMs could be costl
 ```bib
 @inproceedings{wang2025tracllm,
     title={TracLLM: A Generic Framework for Attributing Long Context LLMs},
-    author={Wang, Yanting, and Zou, Wei and Geng, Runpeng and Jia, Jinyuan},
+    author={Wang, Yanting and Zou, Wei and Geng, Runpeng and Jia, Jinyuan},
     booktitle={USENIX Security Symposium},
     year={2025}
 }
